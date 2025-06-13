@@ -1,0 +1,57 @@
+/* Row 3 - Why Choose Our Shipping Service */
+.row3 {
+    padding: 80px 5%;
+    background-color: #f1f5f9;
+    text-align: center;
+    background: url('../img/truck.png') no-repeat center center/cover;
+}
+
+.row3 h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.row3wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.row3wrapper > div {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    width: 60%;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.row3 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.row3 li {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .row3wrapper > div {
+        width: 100%;
+    }
+}
